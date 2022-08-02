@@ -1,0 +1,18 @@
+$primary: #36ad94;
+$dark: #6610f2;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$torres-theme-colors: (
+    "btn1" : orange,
+    "btn2" : rgb(180, 10, 10),
+);
+
+$theme-colors: map-merge($torres-theme-colors , $theme-colors);
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
